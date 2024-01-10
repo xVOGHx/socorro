@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteador</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    <main>
+        <h1>Qual tartaruga ninja é você ?</h1>
+        <form id="sorteador">
+            <div class="numero-maximo">
+                <label for="numero-maximo">Numero maximo</label>
+                <input type="number" id="numero-maximo" required value="4">
+            </div>
+            <button type="submit">Clique aqui para descobrir</button>
+        </form>
+    <div class="resultado">
+        Você é: <span id="resultado-valor"></span>
+    </div>
+    <div class="personagens">
+        <img src="../src/img/donatelo.png" id="donatelo" alt="donatelo">
+        <img src="../src/img/michelangelo.png" id="michelangelo" alt="michelangelo">
+        <img src="../src/img/Raphael.png" id="Raphael" alt="Raphael">
+        <img src="../src/img/leonardo.jpg" id="leonardo" alt="leonardo">
+    </div>
+    </main>
+    <script src="./scripts/main.js"></script>
+</body>
+</html>
